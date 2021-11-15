@@ -1,0 +1,25 @@
+// Nama  : Dewi Puji Astuti
+// NIM   : G 501 20 009
+// Kelas : A (Ganjil)
+// Program yang Mengandung Perulangan dan Scanner Input
+// Program Melihat Banyak Pagar yang Diinginkan
+
+package alpro;
+
+import java.util.Scanner;
+
+public class tugasprogramperulangan {
+	
+	public static void main(String[] args) {
+		Scanner input = new Scanner (System.in);
+		
+		int a;
+		System.out.print("Masukkan Berapa Banyak Pagar yang Kamu Inginkan : ");
+		a = input.nextInt();
+			
+		for(int i = 1; i <= a; i++) {
+			System.out.println("#");
+		}
+		
+	}
+}
